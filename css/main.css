@@ -1,0 +1,171 @@
+@font-face { font-family: Marvel; src: url('../font/Marvel.ttf'); } 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Marvel;
+    font-size: 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  nav.mnu_main {
+    display: block;
+    position: absolute;
+    right: 0em;
+    width: 70%;
+    top: 6%;
+}
+
+.logo {
+    display: block;
+    position: relative;
+}
+
+.cont_region1 {
+    text-align: center;
+    width: 45%;
+    display: block;
+    position: relative;
+    left: 29%;
+
+}
+
+.cont_region1 h1 {
+  font-family: Marvel;
+  font-size: 40px;
+  color:brown;
+}
+
+.cont_region1 p {
+  font-family: Marvel;
+  font-size: 20px;
+  color:black;
+}
+
+.caja1 {
+  display: flex;
+  position: relative;
+  left: 23%;
+  width: 81%;
+  padding-top: 2%;
+}
+
+
+.titulo {
+  font-family: Marvel;
+  font-size: 30px;
+  color:brown;
+}
+
+.contenido
+{ 
+  font-family: Marvel;
+  font-size: 16px;
+  color:black;
+}
+
+.descripcion_cap {
+  width: 40%;
+  padding: 2% 2%;
+
+}
+
+.caja2 {
+  display: flex;
+  position: relative;
+  left: 23%;
+  width: 81%;
+  padding-top: 2%;
+}
+
+.caja3 {
+  display: flex;
+  position: relative;
+  left: 13%;
+  width: 81%;
+  padding-top: 2%;
+}
+
+.descripcion_cj3 {
+  width: 40%;
+  padding: 2% 2%;
+
+}
+
+.titulo_c3 , .title_staff {
+  font-family: Marvel;
+  font-size: 20px;
+  color:brown;
+  text-align: center;
+}
+
+.contenido_c3, .cont_staff
+{ 
+  font-family: Marvel;
+  font-size: 16px;
+  color:black;
+  text-align: center;
+}
+
+.region4 
+{
+  background-color: lightgray;
+}
+
+.caja4 {
+  display: flex;
+  position: relative;
+  left: 13%;
+  width: 81%;
+  padding-top: 2%;
+}
+
+img.imgstaff {
+  width: 75%;
+  margin: auto;
+  display: block;
+}
+
+footer {
+  background-color: lightgray;
+  height: 12em;
+}
+
+.menu_footer {
+  display: flex;
+  width: 73%;
+  margin: auto;
+  }
+
+  .opcion {
+    display: block;
+    width: 35%;
+    text-align: center;
+}
+
+.opcion a{
+  font-family: Marvel;
+  color:brown;
+}
